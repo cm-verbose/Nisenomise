@@ -1,0 +1,7 @@
+bracketSameLine = true
+endOfLine = "lf"
+htmlWhitespaceSensitivity = "strict"
+printWidth = 120
+semi = true
+tabWidth = 2
+trailingComma = "none"

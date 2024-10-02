@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "newLine": "lf",
+    "noImplicitAny": true,
+    "outDir": "./src/js/",
+    "skipLibCheck": false,
+    "strict": true,
+    "target": "ESNext",
+    "types": [
+      "node",
+      "jest",
+      "ts-jest",
+    ], 
+  },
+  "include": ["./src/ts/**/*"],
+  "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+}
